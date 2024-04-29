@@ -3,12 +3,18 @@ if (js === 'amazing') alert('JavaScript is fun')
 
 console.log(40 + 8 + 23 - 10); // show in console
 
-/* console log */
+/***************************
+ *  ---  Console log  ---  *
+ ***************************/
+
 console.log(40 + 8 + 23 - 10); // show in console
 console.log('Marko')
 console.log(23)
 
-/* variables */
+/*************************
+ *  ---  Variables  ---  *
+ *************************/
+
 let firstName = 'Milenta'
 console.log(firstName)
 
@@ -50,7 +56,9 @@ year = 1999
 console.log(year)
 console.log(typeof year)
 
-/* math operators */
+/******************************
+ *  ---  Math operators  ---  *
+ ******************************/
 
 const now = 2024
 const ageMarko = now - 1989
@@ -61,7 +69,9 @@ const firstName2 = "mare"
 const lastName2 = "M"
 console.log(firstName2 + ' ' + lastName2)
 
-/* Assigment operators */
+/***********************************
+ *  ---  Assigment operators  ---  *
+ ***********************************/
 
 let x = 10 + 5 // x = 15
 x += 10 // x = 15 + 10 = 25
@@ -69,14 +79,18 @@ x *= 4 // x = x * 4
 x++ // x = x + 1
 x-- // x = x - 1
 
-/* Comparison operators */
+/************************************
+ *  ---  Comparison operators  ---  *
+ ************************************/
 
 console.log(ageMarko > ageMirko) // true or false
 console.log(ageMarko < ageMirko) // true or false
 console.log(ageMarko >= ageMirko) // true or false
 console.log(ageMarko <= ageMirko) // true or false
 
-/* template string */
+/*******************************
+ *  ---  Template string  ---  *
+ *******************************/
 
 const nameTs = 'Marko'
 const birthYearTs = 1989
@@ -93,7 +107,9 @@ console.log(`String with
 multiple 
 lines`)
 
-/* taking desizions - if else  */
+/******************************************
+ *  ---  Taking desizions - if else  ---  *
+ ******************************************/
 
 const birthMarko = 2015
 const currentYear = 2024
@@ -117,7 +133,9 @@ if (birthYearJohn <= 2000) {
 }
 console.log('century is ' + century)
 
-/* type conversion - rucno menjamo tip vrednosti u broj ili string u glavnom*/
+/*****************************************************************************************
+ *  ---  Type conversion - rucno menjamo tip vrednosti u broj ili string u glavnom  ---  *
+ *****************************************************************************************/
 
 const inputYear = 1992
 console.log(inputYear + 18) // 199218
@@ -125,13 +143,17 @@ console.log(Number(inputYear) + 18) // 2010
 console.log(Number('Jonas')) // rezultat je NaN - skracenica od not a number
 console.log(String(23)) // '23' dobijemo string 23
 
-/* type coercion - automatski menjamo tip vrednosti*/
+/****************************************************************
+ *  ---  Type coercion - automatski menjamo tip vrednosti  ---  *
+ ****************************************************************/
 
 console.log('I am ' + 23 + ' years old.') // plus menja broj u string automatski
 console.log('23' - '10' - 2) // broj 11 - minus menja stringove u brojeve automatski
 console.log('20' * '2') // broj 40 - mnozenje i deljenje menja stringove u brojeve
 
-/* truthy and falsy */
+/********************************
+ *  ---  Truthy and falsy  ---  *
+ ********************************/
 
 // 5 falsy values : 0, '', undefined, null, NaN - ako ove vrednosti pretvorimo u Boolean dobijemo false
 
@@ -150,7 +172,9 @@ if (height) { // height je nedefinisana i zato je false pa ide u else
     console.log('height is undefined')
 }
 
-/* loose and strict equal == & === */
+/***********************************************
+ *  ---  Loose and strict equal == & ===  ---  *
+ ***********************************************/
 
 const ageM = 18
 if (ageM === 18) console.log('you turned 18') // mora da se poklapa vrednost i tip varijable
@@ -170,12 +194,16 @@ const hasDriverLicence = true
 const hasGoodVision = false
 const isTierd = true
 
-/* operators : main 3 are : and, or, not */
+/*****************************************************
+ *  ---  Operators : main 3 are : and, or, not  ---  *
+ *****************************************************/
 
 if (hasDriverLicence && hasGoodVision && !isTierd) console.log('Sarah can drive')
 else console.log('somebody else should drive')
 
-/* swithch statemant */
+/*********************************
+ *  ---  Swithch statemant  ---  *
+ *********************************/
 
 const day = 'Frday'
 
@@ -187,7 +215,9 @@ switch (day) {
     case 'Friday': console.log('It is Thursday or Friday'); break;
 }
 
-/* Ternary operator */
+/********************************
+ *  ---  Ternary operator  ---  *
+ ********************************/
 
 const ageMara = 23
 // ima tri uslova. prvi je sad >= onda ide ? pa odgovor za true, oda : pa odgovor za false. mora da ima samo jednu liniju za odgovore
